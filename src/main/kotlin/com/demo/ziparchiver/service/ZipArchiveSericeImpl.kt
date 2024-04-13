@@ -25,7 +25,7 @@ class ZipArchiveServiceImpl : ZipArchiveSerice {
      * @return созданный архив
      */
     override fun createZip(zipRequestDto: ZipRequestDto): ZipFile {
-        var zipFileName = zipRequestDto.archiveName
+        var zipFileName = zipRequestDto.archivePath
         if (!zipFileName.endsWith(".zip")) {
             zipFileName += ".zip"
         }
