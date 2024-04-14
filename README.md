@@ -4,7 +4,7 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-git clone https://github.com/ваш-репозиторий.git
+git clone https://github.com/Ix2001/ziparchiver.git
 2. Перейдите в каталог проекта:
 3. Запустите приложение: ./gradlew bootRun
 
